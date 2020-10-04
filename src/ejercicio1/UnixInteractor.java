@@ -21,8 +21,11 @@ public class UnixInteractor {
 			System.out.println("La salida del proceso hijo " + Arrays.toString(command) + ":");
 			while ((line = br.readLine()) != null) {
 				System.out.println(line);
+				
 			}
 			is.close();
+			
+			
 		} catch (IOException e) {
 			System.out.println("Error ocurrió ejecutando el comando. Descripción: "+e.getMessage());
 		}
