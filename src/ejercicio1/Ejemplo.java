@@ -27,7 +27,7 @@ public class Ejemplo {
 	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		abrirPrograma("notepad.exe");
+		abrirPrograma("java -jar Ej5.jar");
 	}
 
 }

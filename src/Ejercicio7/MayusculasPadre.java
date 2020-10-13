@@ -45,7 +45,7 @@ public class MayusculasPadre {
      */
     private static void llamarProcesoHijo( String textoPantalla) throws IOException {
        
-        Process proceso = Runtime.getRuntime().exec("java -jar Mayusculasexe.jar");
+        Process proceso = Runtime.getRuntime().exec("java -jar HolaMundo.jar");
         OutputStream stdin = proceso.getOutputStream ();
         InputStream stdout = proceso.getInputStream ();
 
